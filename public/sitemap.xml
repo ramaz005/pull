@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This is a single-page site, so it needs only one canonical URL.
+  Anchor fragments (e.g. /#programs) are not separate documents and should not be
+  listed as their own <url> entries - search engines index the root page and its content.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.aquakids-swimschool.example.com/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

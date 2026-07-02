@@ -1,0 +1,64 @@
+/**
+ * Shared @keyframes library. React components reference these by name via
+ * plain CSS classes (component .module.css files) for decorative / ambient
+ * motion; interactive motion (reveal-on-scroll, hover, accordions, carousel)
+ * is handled by framer-motion in JS - see src/utils/motionVariants.js.
+ */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -18px, 0);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(12px, -24px, 0) scale(1.04);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.06);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Decorative infinite motion is intentionally limited to Hero's background
+   shapes (see Hero.module.css) - infinite animations elsewhere are avoided
+   per accessibility/performance conventions. */

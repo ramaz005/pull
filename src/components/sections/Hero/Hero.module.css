@@ -1,0 +1,129 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--gradient-hero);
+  padding-block: var(--space-24) var(--space-16);
+}
+
+.shapes {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(4px);
+  background: radial-gradient(circle at 30% 30%, var(--color-secondary-500), transparent 70%);
+}
+
+.shapeOne {
+  width: 340px;
+  height: 340px;
+  top: -80px;
+  right: -60px;
+  animation: float-slow 9s ease-in-out infinite;
+}
+
+.shapeTwo {
+  width: 220px;
+  height: 220px;
+  bottom: -40px;
+  left: -40px;
+  background: radial-gradient(circle at 30% 30%, var(--color-accent-500), transparent 70%);
+  animation: float 7s ease-in-out infinite;
+}
+
+.shapeThree {
+  width: 160px;
+  height: 160px;
+  top: 40%;
+  right: 8%;
+  background: radial-gradient(circle at 30% 30%, var(--color-primary-300), transparent 70%);
+  animation: pulse-soft 6s ease-in-out infinite;
+}
+
+.grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: var(--space-16);
+  align-items: center;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.eyebrow {
+  display: inline-block;
+  width: fit-content;
+  font-family: var(--font-heading);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-secondary-300);
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--space-1) var(--space-4);
+  border-radius: var(--radius-full);
+}
+
+.headline {
+  color: var(--color-white);
+  max-width: 20ch;
+}
+
+.subheadline {
+  color: var(--color-text-inverse-muted);
+  font-size: var(--fs-body-lg);
+  max-width: 46ch;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+  padding-top: var(--space-8);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.imageWrapper {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .statsRow {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .image {
+    aspect-ratio: 3 / 4;
+  }
+}

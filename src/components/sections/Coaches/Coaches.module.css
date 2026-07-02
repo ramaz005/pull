@@ -1,0 +1,89 @@
+.section {
+  padding-block: var(--space-24);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
+}
+
+.card {
+  text-align: center;
+}
+
+.photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+  border: 3px solid var(--color-secondary-100);
+}
+
+.name {
+  font-size: var(--fs-h4);
+}
+
+.position {
+  color: var(--color-secondary-700);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-small);
+  margin-bottom: var(--space-1);
+}
+
+.experience {
+  color: var(--color-text-muted);
+  font-size: var(--fs-xsmall);
+  margin-bottom: var(--space-4);
+}
+
+.specializationLabel {
+  font-size: var(--fs-xsmall);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: var(--fw-bold);
+  color: var(--color-text-muted);
+}
+
+.specialization {
+  font-size: var(--fs-small);
+  margin-bottom: var(--space-4);
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.certifications li {
+  font-size: var(--fs-xsmall);
+  background: var(--color-gray-100);
+  color: var(--color-text-default);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+}
+
+.socialRow {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  border-top: 1px solid var(--color-border-default);
+  padding-top: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

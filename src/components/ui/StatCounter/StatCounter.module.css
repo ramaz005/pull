@@ -1,0 +1,26 @@
+.stat {
+  text-align: center;
+}
+
+.value {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 1.4rem + 1.6vw, 2.5rem);
+  font-weight: var(--fw-extrabold);
+  color: var(--color-primary-700);
+  line-height: 1.1;
+}
+
+.label {
+  margin-top: var(--space-1);
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  font-weight: var(--fw-medium);
+}
+
+.inverse .value {
+  color: var(--color-white);
+}
+
+.inverse .label {
+  color: var(--color-text-inverse-muted);
+}

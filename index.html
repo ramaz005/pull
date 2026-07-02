@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ============================= Primary SEO ============================= -->
+    <title>AquaKids Swim School | Swimming Lessons for Kids & Adults in Springfield</title>
+    <meta
+      name="description"
+      content="AquaKids Swim School offers certified swim instruction for children 5+ and adults of any age. Small classes, modern indoor pools, and flexible schedules in Springfield. Book your trial lesson today."
+    />
+    <meta
+      name="keywords"
+      content="swim lessons, swimming school, kids swimming lessons, adult swim lessons, learn to swim, swim coach, private swim lessons, swimming classes near me"
+    />
+    <meta name="author" content="AquaKids Swim School" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.aquakids-swimschool.example.com/" />
+
+    <!-- ============================= Open Graph ============================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AquaKids Swim School" />
+    <meta property="og:title" content="AquaKids Swim School | Swimming Lessons for Kids & Adults" />
+    <meta
+      property="og:description"
+      content="Certified swim instruction for children 5+ and adults of any age. Small classes, modern pools, flexible schedules. Book your trial lesson today."
+    />
+    <meta property="og:url" content="https://www.aquakids-swimschool.example.com/" />
+    <meta property="og:image" content="https://www.aquakids-swimschool.example.com/og-cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ============================= Twitter Card ============================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AquaKids Swim School | Swimming Lessons for Kids & Adults" />
+    <meta
+      name="twitter:description"
+      content="Certified swim instruction for children 5+ and adults of any age. Small classes, modern pools, flexible schedules."
+    />
+    <meta name="twitter:image" content="https://www.aquakids-swimschool.example.com/og-cover.jpg" />
+
+    <!-- ============================= Favicons ============================= -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0B4F6C" />
+
+    <!-- ============================= Google Fonts ============================= -->
+    <!-- Plus Jakarta Sans (headings) + Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      ============================= Structured Data (Schema.org) =============================
+      This JSON-LD is the canonical copy for search engines. Because this is a client-rendered
+      Vite SPA (no server-side rendering), this block is hardcoded here rather than injected at
+      runtime, so crawlers see it immediately without executing JavaScript.
+      IMPORTANT: keep this in sync with src/utils/constants.js (SITE_INFO / CONTACT / BUSINESS_HOURS)
+      -- src/utils/seo.js documents this object as the "source of truth to copy from".
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SportsActivityLocation",
+        "name": "AquaKids Swim School",
+        "description": "Certified swim instruction for children 5+ and adults of any age, offering private, group, and competitive training in modern indoor pools.",
+        "url": "https://www.aquakids-swimschool.example.com/",
+        "telephone": "+1-555-123-4567",
+        "email": "hello@aquakids-swimschool.example.com",
+        "image": "https://www.aquakids-swimschool.example.com/og-cover.jpg",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "482 Harbor View Lane",
+          "addressLocality": "Springfield",
+          "addressRegion": "IL",
+          "postalCode": "62701",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Sunday"],
+            "opens": "09:00",
+            "closes": "16:00"
+          }
+        ],
+        "sameAs": [
+          "https://instagram.com/aquakidsswim",
+          "https://facebook.com/aquakidsswim",
+          "https://youtube.com/@aquakidsswim"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

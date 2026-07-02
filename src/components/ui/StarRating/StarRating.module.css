@@ -1,0 +1,12 @@
+.row {
+  display: inline-flex;
+  gap: var(--space-1);
+}
+
+.filled {
+  color: var(--color-warning);
+}
+
+.empty {
+  color: var(--color-gray-300);
+}

@@ -1,0 +1,99 @@
+.section {
+  padding-block: var(--space-24);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  height: 100%;
+}
+
+.featured {
+  border-color: var(--color-secondary-500);
+  box-shadow: var(--shadow-md);
+}
+
+.featuredBadge {
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+}
+
+.iconCircle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-lg);
+  background: var(--gradient-ocean);
+  color: var(--color-white);
+}
+
+.headingRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.title {
+  font-size: var(--fs-h4);
+}
+
+.ageGroup {
+  flex-shrink: 0;
+  font-size: var(--fs-xsmall);
+  font-weight: var(--fw-semibold);
+  color: var(--color-secondary-700);
+}
+
+.description {
+  color: var(--color-text-muted);
+}
+
+.benefitsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  flex-grow: 1;
+}
+
+.benefitsList li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--fs-small);
+  color: var(--color-text-default);
+}
+
+.benefitsList li svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--color-secondary-500);
+}
+
+.cta {
+  margin-top: var(--space-2);
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

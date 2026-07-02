@@ -1,0 +1,119 @@
+/**
+ * Design tokens - single source of truth for the visual system.
+ * Recolor or re-theme the entire site by editing values here only.
+ * See README.md "Color customization guide" / "Typography customization guide".
+ */
+:root {
+  /* ---------- Color palette (swimming-inspired: trust, energy, movement) ---------- */
+  --color-primary-900: #052e3c; /* deep ocean blue - darkest */
+  --color-primary-700: #0b4f6c;
+  --color-primary-500: #10739b; /* primary brand color */
+  --color-primary-300: #4fa3c7;
+  --color-primary-100: #d7ebf3;
+
+  --color-secondary-700: #0e8074;
+  --color-secondary-500: #17bebb; /* turquoise - secondary brand color */
+  --color-secondary-300: #6fe0da;
+  --color-secondary-100: #d7f7f4;
+
+  --color-accent-500: #38bdf8; /* sky blue - accent */
+  --color-accent-300: #93ddfb;
+
+  --color-navy-900: #071e2b; /* dark navy background */
+  --color-white: #ffffff;
+  --color-gray-50: #f4f8fa;
+  --color-gray-100: #e7eff2;
+  --color-gray-300: #c4d3d9;
+  --color-gray-600: #52646c; /* AA-checked for body text on white/gray-50 */
+  --color-gray-900: #1b2a30;
+
+  --color-success: #2e9e5b;
+  --color-error: #d64550;
+  --color-warning: #e8a33d;
+
+  /* ---------- Semantic aliases ---------- */
+  --color-bg-default: var(--color-white);
+  --color-bg-subtle: var(--color-gray-50);
+  --color-bg-inverse: var(--color-navy-900);
+  --color-text-default: var(--color-gray-900);
+  --color-text-muted: var(--color-gray-600);
+  --color-text-inverse: var(--color-white);
+  --color-text-inverse-muted: var(--color-gray-300);
+  --color-border-default: var(--color-gray-100);
+  --color-border-strong: var(--color-gray-300);
+
+  /* ---------- Typography ---------- */
+  --font-heading: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  --fs-h1: clamp(2.25rem, 1.6rem + 3vw, 3.75rem);
+  --fs-h2: clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem);
+  --fs-h3: clamp(1.375rem, 1.2rem + 0.8vw, 1.875rem);
+  --fs-h4: 1.25rem;
+  --fs-body-lg: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-xsmall: 0.75rem;
+
+  --lh-heading: 1.2;
+  --lh-body: 1.65;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* ---------- Spacing scale (4px base unit) ---------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* ---------- Radii ---------- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+
+  /* ---------- Shadows ---------- */
+  --shadow-sm: 0 1px 2px rgba(7, 30, 43, 0.06);
+  --shadow-md: 0 4px 16px rgba(7, 30, 43, 0.1);
+  --shadow-lg: 0 12px 32px rgba(7, 30, 43, 0.14);
+  --shadow-xl: 0 24px 64px rgba(7, 30, 43, 0.18);
+  --shadow-focus: 0 0 0 3px var(--color-accent-300);
+
+  /* ---------- Breakpoints (reference values, used by useMediaQuery) ---------- */
+  --bp-mobile: 375px;
+  --bp-tablet: 768px;
+  --bp-laptop: 1024px;
+  --bp-desktop: 1280px;
+  --bp-ultrawide: 1536px;
+
+  /* ---------- Motion ---------- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+
+  /* ---------- Layout ---------- */
+  --container-max: 1280px;
+  --navbar-height: 76px;
+  --z-nav: 50;
+  --z-modal: 100;
+  --z-toast: 110;
+
+  /* ---------- Gradients ---------- */
+  --gradient-ocean: linear-gradient(135deg, var(--color-primary-700) 0%, var(--color-secondary-500) 100%);
+  --gradient-hero: linear-gradient(160deg, var(--color-primary-900) 0%, var(--color-primary-700) 55%, var(--color-secondary-700) 100%);
+}

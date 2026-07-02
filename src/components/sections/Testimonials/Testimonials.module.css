@@ -1,0 +1,112 @@
+.section {
+  padding-block: var(--space-24);
+}
+
+.carousel {
+  position: relative;
+  background: var(--color-white);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-xl);
+  padding: var(--space-10) var(--space-8);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.quoteMark {
+  position: absolute;
+  top: var(--space-6);
+  left: var(--space-6);
+  width: 48px;
+  height: 48px;
+  color: var(--color-secondary-100);
+}
+
+.slideViewport {
+  position: relative;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.quote {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-default);
+  max-width: 56ch;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: var(--fw-semibold);
+  text-align: left;
+}
+
+.role {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  text-align: left;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.arrowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border-default);
+  color: var(--color-primary-700);
+  transition: background-color var(--duration-fast) var(--ease-out);
+}
+
+.arrowButton:hover {
+  background: var(--color-gray-100);
+}
+
+.dots {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-gray-300);
+  transition: background-color var(--duration-fast) var(--ease-out), transform var(--duration-fast) var(--ease-out);
+}
+
+.dotActive {
+  background: var(--color-secondary-500);
+  transform: scale(1.3);
+}

@@ -1,0 +1,109 @@
+.section {
+  padding-block: var(--space-24);
+  background: var(--color-bg-subtle);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  height: 100%;
+}
+
+.popular {
+  border: 2px solid var(--color-secondary-500);
+  box-shadow: var(--shadow-lg);
+  transform: scale(1.03);
+}
+
+.popularBadge {
+  position: absolute;
+  top: calc(-1 * var(--space-3));
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.planName {
+  font-size: var(--fs-h4);
+}
+
+.description {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+  min-height: 2.4em;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1);
+}
+
+.priceValue {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-extrabold);
+  color: var(--color-primary-700);
+}
+
+.pricePeriod {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  flex-grow: 1;
+}
+
+.features li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--fs-small);
+}
+
+.features li svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--color-secondary-500);
+}
+
+.featureExcluded {
+  color: var(--color-text-muted);
+}
+
+.featureExcluded svg {
+  color: var(--color-gray-300) !important;
+}
+
+.cta {
+  width: 100%;
+  margin-top: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .popular {
+    transform: scale(1.05);
+  }
+}
