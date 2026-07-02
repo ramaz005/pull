@@ -11,14 +11,14 @@ export const missionVisionValues = {
       id: "safety",
       icon: "ShieldCheck",
       title: "Безопасность",
-      description: "Сертифицированные спасатели, строгие нормативы и высокие стандарты центра на каждом занятии.",
+      description: "Строгие нормативы и высокие стандарты центра на каждом занятии.",
     },
     {
       id: "patience",
       icon: "Heart",
       title: "Терпение",
       description: "Каждый пловец учится в своём темпе — мы никогда не торопим уверенность.",
-    },
+    },  
     {
       id: "excellence",
       icon: "Medal",
