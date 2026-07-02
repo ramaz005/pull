@@ -41,7 +41,7 @@ export default function Navbar() {
         </a>
 
         {isDesktop && (
-          <nav aria-label="Primary" className={styles.links}>
+          <nav aria-label="Основная навигация" className={styles.links}>
             {navLinks.map((link) => (
               <a
                 key={link.id}
@@ -59,7 +59,7 @@ export default function Navbar() {
         <div className={styles.actions}>
           {isDesktop && (
             <Button as="a" href="#contact" size="sm" onClick={(event) => handleNavClick(event, "#contact")}>
-              Book a Lesson
+              Записаться на занятие
             </Button>
           )}
 
@@ -67,7 +67,7 @@ export default function Navbar() {
             <button
               type="button"
               className={styles.menuToggle}
-              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-label={isMobileMenuOpen ? "Закрыть меню" : "Открыть меню"}
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-nav-panel"
               onClick={() => setIsMobileMenuOpen((open) => !open)}
@@ -82,7 +82,7 @@ export default function Navbar() {
         {!isDesktop && isMobileMenuOpen && (
           <motion.nav
             id="mobile-nav-panel"
-            aria-label="Mobile"
+            aria-label="Мобильная навигация"
             className={styles.mobilePanel}
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
@@ -106,7 +106,7 @@ export default function Navbar() {
                 onClick={(event) => handleNavClick(event, "#contact")}
                 className={styles.mobileCta}
               >
-                Book a Lesson
+                Записаться на занятие
               </Button>
             </Container>
           </motion.nav>

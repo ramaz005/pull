@@ -12,9 +12,9 @@ export default function Coaches() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="coaches-heading"
-            eyebrow="Meet the team"
-            title="Certified coaches who love teaching"
-            subtitle="Every instructor is certified, background-checked, and trained specifically for the age group they teach."
+            eyebrow="Знакомьтесь с командой"
+            title="Сертифицированные тренеры, влюблённые в своё дело"
+            subtitle="Каждый инструктор сертифицирован, проверен и обучен именно для той возрастной группы, с которой работает."
           />
         </RevealOnScroll>
 

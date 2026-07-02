@@ -31,7 +31,7 @@ export default function Lightbox({ images, openIndex, onClose, onNavigate }) {
         type="button"
         className={[styles.navButton, styles.prev].join(" ")}
         onClick={() => onNavigate((openIndex - 1 + images.length) % images.length)}
-        aria-label="Previous image"
+        aria-label="Предыдущее изображение"
       >
         <ChevronLeft size={24} aria-hidden="true" />
       </button>
@@ -42,7 +42,7 @@ export default function Lightbox({ images, openIndex, onClose, onNavigate }) {
         type="button"
         className={[styles.navButton, styles.next].join(" ")}
         onClick={() => onNavigate((openIndex + 1) % images.length)}
-        aria-label="Next image"
+        aria-label="Следующее изображение"
       >
         <ChevronRight size={24} aria-hidden="true" />
       </button>

@@ -3,12 +3,12 @@
  * useScrollSpy (which needs the list of section ids to track).
  */
 export const navLinks = [
-  { id: "home", label: "Home", href: "#home" },
-  { id: "programs", label: "Programs", href: "#programs" },
-  { id: "about", label: "About", href: "#about" },
-  { id: "coaches", label: "Coaches", href: "#coaches" },
-  { id: "testimonials", label: "Testimonials", href: "#testimonials" },
-  { id: "pricing", label: "Pricing", href: "#pricing" },
-  { id: "faq", label: "FAQ", href: "#faq" },
-  { id: "contact", label: "Contact", href: "#contact" },
+  { id: "home", label: "Главная", href: "#home" },
+  { id: "programs", label: "Программы", href: "#programs" },
+  { id: "about", label: "О нас", href: "#about" },
+  { id: "coaches", label: "Тренеры", href: "#coaches" },
+  { id: "testimonials", label: "Отзывы", href: "#testimonials" },
+  { id: "pricing", label: "Цены", href: "#pricing" },
+  { id: "faq", label: "Вопросы", href: "#faq" },
+  { id: "contact", label: "Контакты", href: "#contact" },
 ];

@@ -20,20 +20,20 @@ export default function Hero() {
       <Container className={styles.grid}>
         <div className={styles.copy}>
           <RevealOnScroll variant="fadeUp">
-            <span className={styles.eyebrow}>Learn to swim with confidence</span>
+            <span className={styles.eyebrow}>Учитесь плавать с уверенностью</span>
           </RevealOnScroll>
 
           <RevealOnScroll variant="fadeUp" delay={0.08}>
             <h1 id="hero-heading" className={styles.headline}>
-              Swimming lessons for every age, from first splash to first race.
+              Уроки плавания в любом возрасте — от первого всплеска до первого старта.
             </h1>
           </RevealOnScroll>
 
           <RevealOnScroll variant="fadeUp" delay={0.16}>
             <p className={styles.subheadline}>
-              AquaKids Swim School teaches children 5+ and adults of any age with certified
-              instructors, small class sizes, and modern indoor pools. Book a trial lesson and see
-              the difference real coaching makes.
+              Школа плавания AquaKids обучает детей от 5 лет и взрослых любого возраста:
+              сертифицированные инструкторы, малые группы и современные крытые бассейны.
+              Запишитесь на пробное занятие и почувствуйте разницу настоящего тренерского подхода.
             </p>
           </RevealOnScroll>
 
@@ -48,7 +48,7 @@ export default function Hero() {
                 scrollTo("contact");
               }}
             >
-              Book a Trial Lesson
+              Записаться на пробное занятие
             </Button>
             <Button
               as="a"
@@ -62,7 +62,7 @@ export default function Hero() {
                 scrollTo("programs");
               }}
             >
-              View Programs
+              Смотреть программы
             </Button>
           </RevealOnScroll>
 
@@ -77,7 +77,7 @@ export default function Hero() {
           <img
             // TODO: replace with real photography
             src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=1200&q=80&auto=format&fit=crop"
-            alt="Coach guiding a young swimmer through a freestyle drill in a bright indoor pool"
+            alt="Тренер помогает юному пловцу освоить вольный стиль в светлом крытом бассейне"
             className={styles.image}
             fetchpriority="high"
           />

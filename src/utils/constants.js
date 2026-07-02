@@ -4,8 +4,8 @@
  * IMPORTANT: keep in sync with the hardcoded <script type="application/ld+json"> in index.html.
  */
 export const SITE_INFO = {
-  name: "AquaKids Swim School", // TODO: replace with real business name
-  tagline: "Swimming lessons for children 5+ and adults of any age.",
+  name: "AquaKids", // TODO: replace with real business name
+  tagline: "Уроки плавания для детей от 5 лет и взрослых любого возраста.",
   url: "https://www.aquakids-swimschool.example.com", // TODO: replace with real domain
   logo: "/favicon.svg",
 };
@@ -24,9 +24,9 @@ export const CONTACT = {
 };
 
 export const BUSINESS_HOURS = [
-  { day: "Monday - Friday", hours: "7:00 AM - 8:00 PM" },
-  { day: "Saturday", hours: "8:00 AM - 6:00 PM" },
-  { day: "Sunday", hours: "9:00 AM - 4:00 PM" },
+  { day: "Понедельник – Пятница", hours: "7:00 – 20:00" },
+  { day: "Суббота", hours: "8:00 – 18:00" },
+  { day: "Воскресенье", hours: "9:00 – 16:00" },
 ];
 
 export const SOCIAL = {

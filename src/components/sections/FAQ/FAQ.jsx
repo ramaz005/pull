@@ -13,7 +13,7 @@ export default function FAQ() {
     <section id="faq" aria-labelledby="faq-heading" className={styles.section}>
       <Container size="md">
         <RevealOnScroll variant="fadeUp">
-          <SectionHeading id="faq-heading" eyebrow="FAQ" title="Frequently asked questions" />
+          <SectionHeading id="faq-heading" eyebrow="Вопросы" title="Часто задаваемые вопросы" />
         </RevealOnScroll>
 
         <RevealOnScroll variant="fadeUp" delay={0.1} className={styles.list}>

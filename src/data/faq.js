@@ -4,50 +4,50 @@
 export const faq = [
   {
     id: "min-age",
-    question: "What age can my child start swim lessons?",
+    question: "С какого возраста ребёнок может начать занятия плаванием?",
     answer:
-      "We welcome children starting at age 5 in our Children's Program. For younger children, we recommend parent-and-child water familiarization classes offered seasonally - ask our team for current availability.",
+      "Мы принимаем детей в детскую программу с 5 лет. Для малышей помладше рекомендуем сезонные занятия по адаптации к воде вместе с родителем — уточните у нашей команды актуальные места.",
   },
   {
     id: "never-swum",
-    question: "I'm an adult who has never swum before. Is that okay?",
+    question: "Я взрослый и никогда не плавал. Это нормально?",
     answer:
-      "Absolutely. Our Adult Program is specifically designed for complete beginners, including adults with water anxiety. Classes are judgment-free and paced entirely to your comfort level.",
+      "Конечно. Наша программа для взрослых создана специально для абсолютных новичков, в том числе для тех, кто боится воды. Занятия проходят без осуждения и полностью в комфортном для вас темпе.",
   },
   {
     id: "class-size",
-    question: "How many students are in each class?",
+    question: "Сколько учеников в одной группе?",
     answer:
-      "Group lessons are capped at 6 swimmers per instructor so everyone gets meaningful, individual feedback every session.",
+      "Групповые занятия ограничены 6 пловцами на инструктора, чтобы каждый получал содержательную индивидуальную обратную связь на каждом занятии.",
   },
   {
     id: "what-to-bring",
-    question: "What should we bring to the first lesson?",
+    question: "Что взять на первое занятие?",
     answer:
-      "A swimsuit, towel, and goggles (optional but recommended). We provide kickboards, pull buoys, and all other training equipment. Swim caps are required for longer hair and available for purchase on-site.",
+      "Купальник или плавки, полотенце и очки для плавания (по желанию, но рекомендуем). Доски, колобашки и всё остальное оборудование мы предоставляем. Для длинных волос нужна шапочка для плавания — её можно приобрести на месте.",
   },
   {
     id: "reschedule",
-    question: "Can I reschedule or cancel a lesson?",
+    question: "Можно ли перенести или отменить занятие?",
     answer:
-      "Yes. Lessons can be rescheduled online up to 24 hours in advance at no charge. Late cancellations may be subject to our standard rescheduling policy.",
+      "Да. Занятие можно бесплатно перенести онлайн не позднее чем за 24 часа. К поздним отменам может применяться наш стандартный регламент переноса.",
   },
   {
     id: "trial-lesson",
-    question: "Do you offer a trial lesson before I commit to a plan?",
+    question: "Есть ли пробное занятие перед покупкой абонемента?",
     answer:
-      "Yes, we offer a discounted trial lesson for new students of any age so you can meet your coach and try the pool before choosing a membership plan.",
+      "Да, мы предлагаем пробное занятие со скидкой для новых учеников любого возраста, чтобы вы познакомились с тренером и попробовали воду до выбора абонемента.",
   },
   {
     id: "certifications",
-    question: "Are your instructors certified?",
+    question: "Ваши инструкторы сертифицированы?",
     answer:
-      "Every coach holds current water-safety and swim-instruction certifications (e.g. Red Cross WSI, ASCA), plus CPR/AED training, renewed annually.",
+      "Каждый тренер имеет действующие сертификаты по безопасности на воде и обучению плаванию (например, Red Cross WSI, ASCA), а также подготовку по первой помощи (СЛР/АНД), которая обновляется ежегодно.",
   },
   {
     id: "competition-path",
-    question: "My child wants to swim competitively - do you support that?",
+    question: "Мой ребёнок хочет плавать на соревнованиях — вы это поддерживаете?",
     answer:
-      "Yes. Swimmers who show interest and readiness can progress into our Competition Training squad, which focuses on race pacing, starts, turns, and meet preparation.",
+      "Да. Пловцы, проявляющие интерес и готовность, могут перейти в нашу соревновательную группу, где основное внимание уделяется раскладке на дистанции, стартам, поворотам и подготовке к стартам.",
   },
 ];

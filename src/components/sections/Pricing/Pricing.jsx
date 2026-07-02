@@ -12,9 +12,9 @@ export default function Pricing() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="pricing-heading"
-            eyebrow="Pricing"
-            title="Simple, transparent membership plans"
-            subtitle="Every plan includes certified coaching and access to our modern indoor pools. Cancel or switch plans anytime."
+            eyebrow="Цены"
+            title="Простые и прозрачные абонементы"
+            subtitle="Каждый план включает работу с сертифицированными тренерами и доступ к современным крытым бассейнам. Отмена или смена плана в любой момент."
           />
         </RevealOnScroll>
 

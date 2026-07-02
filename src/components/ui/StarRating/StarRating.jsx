@@ -4,7 +4,7 @@ import styles from "./StarRating.module.css";
 /** Renders a row of filled/outline stars for testimonial ratings. */
 export default function StarRating({ rating, max = 5, size = 18 }) {
   return (
-    <div className={styles.row} role="img" aria-label={`${rating} out of ${max} stars`}>
+    <div className={styles.row} role="img" aria-label={`${rating} из ${max} звёзд`}>
       {Array.from({ length: max }).map((_, index) => (
         <Star
           key={index}

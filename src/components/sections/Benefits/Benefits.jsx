@@ -14,9 +14,9 @@ export default function Benefits() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="benefits-heading"
-            eyebrow="Why choose us"
-            title="Everything your swimmer needs to thrive"
-            subtitle="From certified coaching to modern facilities, every detail is built around progress and safety."
+            eyebrow="Почему выбирают нас"
+            title="Всё, что нужно вашему пловцу для успеха"
+            subtitle="От сертифицированного тренерского состава до современных бассейнов — всё продумано ради прогресса и безопасности."
           />
         </RevealOnScroll>
 

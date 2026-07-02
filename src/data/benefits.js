@@ -5,50 +5,50 @@ export const benefits = [
   {
     id: "certified-instructors",
     icon: "BadgeCheck",
-    title: "Certified Instructors",
+    title: "Сертифицированные инструкторы",
     description:
-      "Every coach is certified in swim instruction, water safety, and CPR/AED, with ongoing training each season.",
+      "Каждый тренер сертифицирован по обучению плаванию, безопасности на воде и первой помощи (СЛР/АНД) и ежесезонно проходит повышение квалификации.",
   },
   {
     id: "small-groups",
     icon: "Users2",
-    title: "Small Group Sizes",
+    title: "Малые группы",
     description:
-      "We cap classes at 6 students per instructor so every swimmer gets hands-on attention and faster progress.",
+      "Мы формируем группы не более 6 учеников на инструктора, чтобы каждый пловец получал индивидуальное внимание и быстрее прогрессировал.",
   },
   {
     id: "modern-pools",
     icon: "Waves",
-    title: "Modern Indoor Pools",
+    title: "Современные крытые бассейны",
     description:
-      "Heated, salt-filtered pools with zero-depth entry, and constant water-quality monitoring year-round.",
+      "Подогреваемые бассейны с солевой очисткой воды, пологим входом и постоянным контролем качества воды круглый год.",
   },
   {
     id: "flexible-schedule",
     icon: "CalendarClock",
-    title: "Flexible Scheduling",
+    title: "Гибкое расписание",
     description:
-      "Morning, evening, and weekend sessions, plus easy online rescheduling when life gets in the way.",
+      "Утренние, вечерние занятия и занятия по выходным, а также удобный перенос онлайн, когда планы меняются.",
   },
   {
     id: "safety-first",
     icon: "ShieldCheck",
-    title: "Safety First",
+    title: "Безопасность прежде всего",
     description:
-      "Certified lifeguards on deck at every session, strict swimmer-to-coach ratios, and clear emergency protocols.",
+      "Сертифицированные спасатели на каждом занятии, строгое соотношение учеников и тренеров, чёткие протоколы действий в экстренных ситуациях.",
   },
   {
     id: "progress-tracking",
     icon: "TrendingUp",
-    title: "Personal Progress Tracking",
+    title: "Отслеживание прогресса",
     description:
-      "Every swimmer gets a digital skill card so parents and adult students can see real progress lesson to lesson.",
+      "Каждый пловец получает цифровую карту навыков, чтобы родители и взрослые ученики видели реальный прогресс от занятия к занятию.",
   },
   {
     id: "friendly-atmosphere",
     icon: "Heart",
-    title: "Friendly Atmosphere",
+    title: "Дружелюбная атмосфера",
     description:
-      "A warm, encouraging environment built for nervous first-timers and competitive swimmers alike.",
+      "Тёплая и поддерживающая обстановка, комфортная и для волнующихся новичков, и для спортсменов.",
   },
 ];

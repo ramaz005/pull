@@ -16,9 +16,9 @@ export default function Gallery() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="gallery-heading"
-            eyebrow="Gallery"
-            title="A look inside AquaKids"
-            subtitle="From first floats to competition starts - a glimpse of everyday life at the pool."
+            eyebrow="Галерея"
+            title="Загляните в AquaKids"
+            subtitle="От первых поплавков до соревновательных стартов — моменты повседневной жизни у бассейна."
           />
         </RevealOnScroll>
 
@@ -29,7 +29,7 @@ export default function Gallery() {
                 type="button"
                 className={styles.thumbButton}
                 onClick={() => setOpenIndex(index)}
-                aria-label={`View larger image: ${photo.alt}`}
+                aria-label={`Открыть изображение крупнее: ${photo.alt}`}
               >
                 <img src={photo.src} alt={photo.alt} className={styles.thumb} loading="lazy" decoding="async" />
                 <span className={styles.overlay} aria-hidden="true">

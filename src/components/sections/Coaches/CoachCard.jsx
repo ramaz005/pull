@@ -10,13 +10,13 @@ export default function CoachCard({ coach }) {
 
   return (
     <Card hoverLift className={styles.card} padding="md">
-      <img src={coach.photo} alt={`Portrait of ${coach.name}, ${coach.position}`} className={styles.photo} loading="lazy" />
+      <img src={coach.photo} alt={`Портрет: ${coach.name}, ${coach.position}`} className={styles.photo} loading="lazy" />
 
       <h3 className={styles.name}>{coach.name}</h3>
       <p className={styles.position}>{coach.position}</p>
-      <p className={styles.experience}>{coach.experienceYears}+ years of experience</p>
+      <p className={styles.experience}>{coach.experienceYears}+ лет опыта</p>
 
-      <p className={styles.specializationLabel}>Specialization</p>
+      <p className={styles.specializationLabel}>Специализация</p>
       <p className={styles.specialization}>{coach.specialization}</p>
 
       <ul className={styles.certifications}>
@@ -36,7 +36,7 @@ export default function CoachCard({ coach }) {
                 href={url}
                 variant="ghost"
                 size="sm"
-                aria-label={`${coach.name} on ${platform}`}
+                aria-label={`${coach.name} в ${platform}`}
                 target="_blank"
                 rel="noreferrer noopener"
               >

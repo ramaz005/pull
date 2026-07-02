@@ -15,8 +15,8 @@ export default function About() {
       <Container>
         <SectionHeading
           id="about-heading"
-          eyebrow="About us"
-          title="Fifteen years of turning nervous first-timers into confident swimmers"
+          eyebrow="О нас"
+          title="Пятнадцать лет превращаем волнующихся новичков в уверенных пловцов"
           align="left"
         />
 
@@ -25,7 +25,7 @@ export default function About() {
             <img
               // TODO: replace with real facility photography
               src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=900&q=80&auto=format&fit=crop"
-              alt="Interior view of AquaKids' modern indoor training pool"
+              alt="Интерьер современного крытого тренировочного бассейна AquaKids"
               className={styles.image}
               loading="lazy"
             />
@@ -33,10 +33,10 @@ export default function About() {
 
           <RevealOnScroll variant="slideLeft" className={styles.textColumn}>
             <p className={styles.paragraph}>
-              <strong>Mission.</strong> {missionVisionValues.mission}
+              <strong>Миссия.</strong> {missionVisionValues.mission}
             </p>
             <p className={styles.paragraph}>
-              <strong>Vision.</strong> {missionVisionValues.vision}
+              <strong>Видение.</strong> {missionVisionValues.vision}
             </p>
 
             <div className={styles.statsRow}>
@@ -58,7 +58,7 @@ export default function About() {
         </div>
 
         <div className={styles.timelineWrapper}>
-          <h3 className={styles.timelineHeading}>Our journey</h3>
+          <h3 className={styles.timelineHeading}>Наш путь</h3>
           <Timeline />
         </div>
       </Container>

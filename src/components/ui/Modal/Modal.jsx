@@ -82,7 +82,7 @@ export default function Modal({ isOpen, onClose, labelledBy, children, className
             exit={{ opacity: 0, scale: 0.96 }}
             transition={{ duration: 0.2 }}
           >
-            <button type="button" className={styles.closeButton} onClick={onClose} aria-label="Close dialog">
+            <button type="button" className={styles.closeButton} onClick={onClose} aria-label="Закрыть">
               <X size={22} aria-hidden="true" />
             </button>
             {children}

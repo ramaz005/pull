@@ -49,8 +49,8 @@ export default function Testimonials() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="testimonials-heading"
-            eyebrow="Testimonials"
-            title="Loved by parents and adult swimmers alike"
+            eyebrow="Отзывы"
+            title="Нас любят и родители, и взрослые пловцы"
           />
         </RevealOnScroll>
 
@@ -74,8 +74,8 @@ export default function Testimonials() {
                 transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                 className={styles.slide}
                 role="group"
-                aria-roledescription="slide"
-                aria-label={`Testimonial ${activeIndex + 1} of ${testimonials.length}`}
+                aria-roledescription="слайд"
+                aria-label={`Отзыв ${activeIndex + 1} из ${testimonials.length}`}
               >
                 <StarRating rating={active.rating} />
                 <p className={styles.quote}>&ldquo;{active.quote}&rdquo;</p>
@@ -91,7 +91,7 @@ export default function Testimonials() {
           </div>
 
           <div className={styles.controls}>
-            <button type="button" className={styles.arrowButton} onClick={goPrev} aria-label="Previous testimonial">
+            <button type="button" className={styles.arrowButton} onClick={goPrev} aria-label="Предыдущий отзыв">
               <ChevronLeft size={20} aria-hidden="true" />
             </button>
 
@@ -101,14 +101,14 @@ export default function Testimonials() {
                   key={testimonial.id}
                   type="button"
                   className={[styles.dot, index === activeIndex && styles.dotActive].filter(Boolean).join(" ")}
-                  aria-label={`Go to testimonial ${index + 1}`}
+                  aria-label={`Перейти к отзыву ${index + 1}`}
                   aria-current={index === activeIndex}
                   onClick={() => goTo(index, index > activeIndex ? 1 : -1)}
                 />
               ))}
             </div>
 
-            <button type="button" className={styles.arrowButton} onClick={goNext} aria-label="Next testimonial">
+            <button type="button" className={styles.arrowButton} onClick={goNext} aria-label="Следующий отзыв">
               <ChevronRight size={20} aria-hidden="true" />
             </button>
           </div>

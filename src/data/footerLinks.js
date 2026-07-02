@@ -4,23 +4,23 @@
  */
 export const footerLinks = {
   quickLinks: [
-    { label: "Home", href: "#home" },
-    { label: "About Us", href: "#about" },
-    { label: "Coaches", href: "#coaches" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "FAQ", href: "#faq" },
-    { label: "Contact", href: "#contact" },
+    { label: "Главная", href: "#home" },
+    { label: "О нас", href: "#about" },
+    { label: "Тренеры", href: "#coaches" },
+    { label: "Цены", href: "#pricing" },
+    { label: "Вопросы", href: "#faq" },
+    { label: "Контакты", href: "#contact" },
   ],
   programs: [
-    { label: "Children 5+", href: "#programs" },
-    { label: "Teenagers", href: "#programs" },
-    { label: "Adults", href: "#programs" },
-    { label: "Private Lessons", href: "#programs" },
-    { label: "Competition Training", href: "#programs" },
+    { label: "Дети от 5 лет", href: "#programs" },
+    { label: "Подростки", href: "#programs" },
+    { label: "Взрослые", href: "#programs" },
+    { label: "Индивидуальные занятия", href: "#programs" },
+    { label: "Соревновательная подготовка", href: "#programs" },
   ],
   legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
+    { label: "Политика конфиденциальности", href: "#" },
+    { label: "Условия использования", href: "#" },
   ],
   social: [
     { label: "Instagram", href: "https://instagram.com", icon: "Instagram" },

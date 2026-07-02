@@ -14,7 +14,7 @@ export default function ProgramCard({ program }) {
     <Card hoverLift className={[styles.card, program.featured && styles.featured].filter(Boolean).join(" ")}>
       {program.featured && (
         <Badge variant="secondary" className={styles.featuredBadge}>
-          Most Popular
+          Самый популярный
         </Badge>
       )}
 

@@ -3,33 +3,33 @@
  */
 export const missionVisionValues = {
   mission:
-    "To make every person - from a nervous five-year-old to a first-time adult swimmer - genuinely confident and safe in the water, through patient, expert instruction.",
+    "Сделать каждого — от волнующегося пятилетнего ребёнка до впервые пришедшего взрослого — по-настоящему уверенным и безопасным на воде благодаря терпеливому и профессиональному обучению.",
   vision:
-    "A community where swimming is a lifelong skill everyone has access to, not a privilege reserved for a few.",
+    "Сообщество, где плавание — это доступный каждому навык на всю жизнь, а не привилегия немногих.",
   values: [
     {
       id: "safety",
       icon: "ShieldCheck",
-      title: "Safety",
-      description: "Certified lifeguards, strict ratios, and rigorous facility standards at every session.",
+      title: "Безопасность",
+      description: "Сертифицированные спасатели, строгие нормативы и высокие стандарты центра на каждом занятии.",
     },
     {
       id: "patience",
       icon: "Heart",
-      title: "Patience",
-      description: "Every swimmer learns at their own pace - we never rush confidence.",
+      title: "Терпение",
+      description: "Каждый пловец учится в своём темпе — мы никогда не торопим уверенность.",
     },
     {
       id: "excellence",
       icon: "Medal",
-      title: "Excellence",
-      description: "Certified, continuously trained coaches held to a high standard of instruction.",
+      title: "Мастерство",
+      description: "Сертифицированные тренеры с постоянным обучением и высокой планкой качества преподавания.",
     },
     {
       id: "inclusion",
       icon: "Users",
-      title: "Inclusion",
-      description: "Programs designed for every age, ability, and comfort level, with zero judgment.",
+      title: "Инклюзивность",
+      description: "Программы для любого возраста, уровня и комфорта — без осуждения.",
     },
   ],
 };

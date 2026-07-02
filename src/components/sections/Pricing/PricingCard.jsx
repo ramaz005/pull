@@ -13,7 +13,7 @@ export default function PricingCard({ plan }) {
     >
       {plan.isPopular && (
         <Badge variant="popular" className={styles.popularBadge}>
-          Most Popular
+          Самый популярный
         </Badge>
       )}
 

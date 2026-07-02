@@ -12,9 +12,9 @@ export default function Programs() {
         <RevealOnScroll variant="fadeUp">
           <SectionHeading
             id="programs-heading"
-            eyebrow="Our programs"
-            title="A program for every swimmer"
-            subtitle="Whether it's a first splash or race-day preparation, we have a structured path for every age and goal."
+            eyebrow="Наши программы"
+            title="Программа для каждого пловца"
+            subtitle="Будь то первый всплеск или подготовка к соревнованиям — у нас есть структурированный путь для любого возраста и цели."
           />
         </RevealOnScroll>
 
