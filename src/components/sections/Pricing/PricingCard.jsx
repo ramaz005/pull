@@ -21,7 +21,7 @@ export default function PricingCard({ plan }) {
       <p className={styles.description}>{plan.description}</p>
 
       <p className={styles.price}>
-        <span className={styles.priceValue}>${plan.price}</span>
+        <span className={styles.priceValue}>Р{plan.price}</span>
         <span className={styles.pricePeriod}>/ {plan.billingPeriod}</span>
       </p>
 
