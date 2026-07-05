@@ -8,6 +8,7 @@ import Gallery from "./components/sections/Gallery/Gallery";
 import Testimonials from "./components/sections/Testimonials/Testimonials";
 import Pricing from "./components/sections/Pricing/Pricing";
 import FAQ from "./components/sections/FAQ/FAQ";
+import Contact from "./components/sections/Contact/Contact";
 
 /**
  * Root component. Assembles the landing-page sections in reading order.
@@ -28,6 +29,7 @@ export default function App() {
         <Testimonials />
         <Pricing />
         <FAQ />
+        <Contact />
       </main>
     </>
   );

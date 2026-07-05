@@ -28,7 +28,7 @@ export const missionVisionValues = {
     {
       id: "inclusion",
       icon: "Users",
-      title: "Инклюзивность",
+      title: "Доступность",
       description: "Программы для любого возраста, уровня и комфорта — без осуждения.",
     },
   ],

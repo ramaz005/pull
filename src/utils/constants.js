@@ -11,8 +11,9 @@ export const SITE_INFO = {
 };
 
 export const CONTACT = {
-  phone: "+1 (555) 123-4567",
-  phoneHref: "tel:+15551234567",
+  phone: "+7 (999) 123-45-67", // TODO: replace with real phone number
+  phoneHref: "tel:+79991234567",
+  telegram: { handle: "@novaya_volna", href: "https://t.me/novaya_volna" }, // TODO: replace with real Telegram
   email: "hello@newwave-swimschool.example.com",
   address: {
     street: "482 Harbor View Lane",

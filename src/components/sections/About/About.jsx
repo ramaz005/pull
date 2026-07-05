@@ -15,7 +15,7 @@ export default function About() {
         <SectionHeading
           id="about-heading"
           eyebrow="О нас"
-          title="Пятнадцать лет превращаем волнующихся новичков в уверенных пловцов"
+          title="Превращаем волнующихся новичков в уверенных пловцов"
           align="left"
         />
 
