@@ -5,7 +5,7 @@ export const timeline = [
   {
     id: "founded",
     year: "2025",
-    title: "Основание AquaKids",
+    title: "Основание New Wave",
     description: "Открыли первый центр с одним бассейном, двумя тренерами и небольшой группой учеников.",
   },
   {

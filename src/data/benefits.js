@@ -5,7 +5,7 @@ export const benefits = [
   {
     id: "certified-instructors",
     icon: "BadgeCheck",
-    title: "профессиональные тренера",
+    title: "Профессиональные тренера",
     description:
       "Каждый тренер сертифицирован по обучению плаванию, безопасности на воде и первой помощи",
   },

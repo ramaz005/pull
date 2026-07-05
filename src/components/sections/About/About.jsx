@@ -25,7 +25,7 @@ export default function About() {
             <img
               // TODO: replace with real facility photography
               src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=900&q=80&auto=format&fit=crop"
-              alt="Интерьер современного крытого тренировочного бассейна AquaKids"
+              alt="Интерьер современного крытого тренировочного бассейна New Wave"
               className={styles.image}
               loading="lazy"
             />

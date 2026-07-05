@@ -4,16 +4,16 @@
  * IMPORTANT: keep in sync with the hardcoded <script type="application/ld+json"> in index.html.
  */
 export const SITE_INFO = {
-  name: "AquaKids", // TODO: replace with real business name
+  name: "New Wave", // TODO: replace with real business name
   tagline: "Уроки плавания для детей от 5 лет и взрослых любого возраста.",
-  url: "https://www.aquakids-swimschool.example.com", // TODO: replace with real domain
+  url: "https://www.newwave-swimschool.example.com", // TODO: replace with real domain
   logo: "/favicon.svg",
 };
 
 export const CONTACT = {
   phone: "+1 (555) 123-4567",
   phoneHref: "tel:+15551234567",
-  email: "hello@aquakids-swimschool.example.com",
+  email: "hello@newwave-swimschool.example.com",
   address: {
     street: "482 Harbor View Lane",
     city: "Springfield",
@@ -30,7 +30,7 @@ export const BUSINESS_HOURS = [
 ];
 
 export const SOCIAL = {
-  instagram: "https://instagram.com/aquakidsswim",
-  facebook: "https://facebook.com/aquakidsswim",
-  youtube: "https://youtube.com/@aquakidsswim",
+  instagram: "https://instagram.com/newwaveswim",
+  facebook: "https://facebook.com/newwaveswim",
+  youtube: "https://youtube.com/@newwaveswim",
 };

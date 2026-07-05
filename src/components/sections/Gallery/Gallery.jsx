@@ -17,7 +17,7 @@ export default function Gallery() {
           <SectionHeading
             id="gallery-heading"
             eyebrow="Галерея"
-            title="Загляните в AquaKids"
+            title="Загляните в New Wave"
             subtitle="От первых поплавков до соревновательных стартов — моменты повседневной жизни у бассейна."
           />
         </RevealOnScroll>
