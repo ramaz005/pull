@@ -4,7 +4,7 @@
  * IMPORTANT: keep in sync with the hardcoded <script type="application/ld+json"> in index.html.
  */
 export const SITE_INFO = {
-  name: "New Wave", // TODO: replace with real business name
+  name: "Новая волна", // TODO: replace with real business name
   tagline: "Уроки плавания для детей от 5 лет и взрослых любого возраста.",
   url: "https://www.newwave-swimschool.example.com", // TODO: replace with real domain
   logo: "/favicon.svg",

@@ -1,15 +1,11 @@
-import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
 import Card from "../../ui/Card/Card";
 import Badge from "../../ui/Badge/Badge";
 import Button from "../../ui/Button/Button";
-import { getIcon } from "../../../utils/iconMap";
 import { scrollTo } from "../../../utils/scrollTo";
 import styles from "./Programs.module.css";
 
 export default function ProgramCard({ program }) {
-  const Icon = getIcon(program.icon);
-
   return (
     <Card hoverLift className={[styles.card, program.featured && styles.featured].filter(Boolean).join(" ")}>
       {program.featured && (
@@ -17,10 +13,6 @@ export default function ProgramCard({ program }) {
           Самый популярный
         </Badge>
       )}
-
-      <motion.span className={styles.iconCircle} whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
-        {Icon && <Icon size={26} aria-hidden="true" />}
-      </motion.span>
 
       <div className={styles.headingRow}>
         <h3 className={styles.title}>{program.title}</h3>

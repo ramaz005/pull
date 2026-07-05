@@ -1,12 +1,11 @@
 import SectionHeading from "../../ui/SectionHeading/SectionHeading";
 import Container from "../../ui/Container/Container";
-import IconWrapper from "../../ui/IconWrapper/IconWrapper";
 import StatCounter from "../../ui/StatCounter/StatCounter";
+import MediaPlaceholder from "../../ui/MediaPlaceholder/MediaPlaceholder";
 import RevealOnScroll from "../../ui/RevealOnScroll/RevealOnScroll";
 import Timeline from "./Timeline";
 import { missionVisionValues } from "../../../data/values";
 import { stats } from "../../../data/stats";
-import { getIcon } from "../../../utils/iconMap";
 import styles from "./About.module.css";
 
 export default function About() {
@@ -22,12 +21,10 @@ export default function About() {
 
         <div className={styles.introGrid}>
           <RevealOnScroll variant="slideRight" className={styles.imageColumn}>
-            <img
-              // TODO: replace with real facility photography
-              src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=900&q=80&auto=format&fit=crop"
-              alt="Интерьер современного крытого тренировочного бассейна New Wave"
+            <MediaPlaceholder
               className={styles.image}
-              loading="lazy"
+              variant={2}
+              alt="Интерьер современного крытого тренировочного бассейна «Новая волна»"
             />
           </RevealOnScroll>
 
@@ -50,7 +47,6 @@ export default function About() {
         <div className={styles.valuesGrid}>
           {missionVisionValues.values.map((value, index) => (
             <RevealOnScroll key={value.id} variant="fadeUp" delay={index * 0.06} className={styles.valueCard}>
-              <IconWrapper icon={getIcon(value.icon)} variant="secondary" />
               <h4 className={styles.valueTitle}>{value.title}</h4>
               <p className={styles.valueDescription}>{value.description}</p>
             </RevealOnScroll>

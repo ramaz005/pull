@@ -5,6 +5,7 @@ import SectionHeading from "../../ui/SectionHeading/SectionHeading";
 import RevealOnScroll from "../../ui/RevealOnScroll/RevealOnScroll";
 import Container from "../../ui/Container/Container";
 import StarRating from "../../ui/StarRating/StarRating";
+import Avatar from "../../ui/Avatar/Avatar";
 import { testimonials } from "../../../data/testimonials";
 import styles from "./Testimonials.module.css";
 
@@ -80,7 +81,7 @@ export default function Testimonials() {
                 <StarRating rating={active.rating} />
                 <p className={styles.quote}>&ldquo;{active.quote}&rdquo;</p>
                 <div className={styles.author}>
-                  <img src={active.photo} alt="" className={styles.avatar} loading="lazy" />
+                  <Avatar name={active.name} className={styles.avatar} />
                   <div>
                     <p className={styles.name}>{active.name}</p>
                     <p className={styles.role}>{active.role}</p>

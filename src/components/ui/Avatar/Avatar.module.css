@@ -1,0 +1,30 @@
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: var(--color-white);
+  text-transform: uppercase;
+  user-select: none;
+  overflow: hidden;
+  /* Size, border and border-radius come from the consumer class (e.g. .photo, .avatar). */
+}
+
+.variant0 {
+  background: var(--gradient-ocean);
+}
+
+.variant1 {
+  background: linear-gradient(135deg, var(--color-primary-900) 0%, var(--color-primary-500) 100%);
+}
+
+.variant2 {
+  background: linear-gradient(135deg, var(--color-secondary-700) 0%, var(--color-accent-500) 100%);
+}
+
+.variant3 {
+  background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-secondary-700) 100%);
+}

@@ -2,6 +2,7 @@ import { ArrowRight, PlayCircle } from "lucide-react";
 import Button from "../../ui/Button/Button";
 import Container from "../../ui/Container/Container";
 import StatCounter from "../../ui/StatCounter/StatCounter";
+import MediaPlaceholder from "../../ui/MediaPlaceholder/MediaPlaceholder";
 import RevealOnScroll from "../../ui/RevealOnScroll/RevealOnScroll";
 import { stats } from "../../../data/stats";
 import { scrollTo } from "../../../utils/scrollTo";
@@ -31,7 +32,7 @@ export default function Hero() {
 
           <RevealOnScroll variant="fadeUp" delay={0.16}>
             <p className={styles.subheadline}>
-              Школа плавания New Wave обучает детей от 5 лет и взрослых любого возраста:
+              Школа плавания «Новая волна» обучает детей от 5 лет и взрослых любого возраста:
               сертифицированные инструкторы, малые группы и современные крытые бассейны.
               Запишитесь на пробное занятие и почувствуйте разницу настоящего тренерского подхода.
             </p>
@@ -74,12 +75,9 @@ export default function Hero() {
         </div>
 
         <RevealOnScroll variant="scaleIn" delay={0.2} className={styles.imageWrapper}>
-          <img
-            // TODO: replace with real photography
-            src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=1200&q=80&auto=format&fit=crop"
-            alt="Тренер помогает юному пловцу освоить вольный стиль в светлом крытом бассейне"
+          <MediaPlaceholder
             className={styles.image}
-            fetchpriority="high"
+            alt="Тренер помогает юному пловцу освоить вольный стиль в светлом крытом бассейне"
           />
         </RevealOnScroll>
       </Container>

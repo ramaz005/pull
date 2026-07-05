@@ -1,6 +1,7 @@
 import { Instagram, Facebook, Linkedin } from "lucide-react";
 import Card from "../../ui/Card/Card";
 import Button from "../../ui/Button/Button";
+import Avatar from "../../ui/Avatar/Avatar";
 import styles from "./Coaches.module.css";
 
 const socialIcons = { instagram: Instagram, facebook: Facebook, linkedin: Linkedin };
@@ -10,7 +11,7 @@ export default function CoachCard({ coach }) {
 
   return (
     <Card hoverLift className={styles.card} padding="md">
-      <img src={coach.photo} alt={`Портрет: ${coach.name}, ${coach.position}`} className={styles.photo} loading="lazy" />
+      <Avatar name={coach.name} className={styles.photo} />
 
       <h3 className={styles.name}>{coach.name}</h3>
       <p className={styles.position}>{coach.position}</p>

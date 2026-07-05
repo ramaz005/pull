@@ -1,10 +1,8 @@
 import SectionHeading from "../../ui/SectionHeading/SectionHeading";
 import Card from "../../ui/Card/Card";
-import IconWrapper from "../../ui/IconWrapper/IconWrapper";
 import RevealOnScroll from "../../ui/RevealOnScroll/RevealOnScroll";
 import Container from "../../ui/Container/Container";
 import { benefits } from "../../../data/benefits";
-import { getIcon } from "../../../utils/iconMap";
 import styles from "./Benefits.module.css";
 
 export default function Benefits() {
@@ -24,7 +22,6 @@ export default function Benefits() {
           {benefits.map((benefit, index) => (
             <RevealOnScroll key={benefit.id} variant="fadeUp" delay={index * 0.08}>
               <Card hoverLift className={styles.card}>
-                <IconWrapper icon={getIcon(benefit.icon)} />
                 <h3 className={styles.title}>{benefit.title}</h3>
                 <p className={styles.description}>{benefit.description}</p>
               </Card>
